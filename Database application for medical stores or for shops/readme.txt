@@ -39,3 +39,6 @@ note -
 
 to sucessfully run the application on your machine
 make sure that you have correctly linked your database to the program.
+in the code file - mysqlconnect.java
+modify the statement in public class mysqlconnect
+to your appropriate login details of mysql database  

@@ -2,6 +2,14 @@ to see the screenshots of the application visit my website
 
 bharathegdeweblog.000webhostapp.com
 
+
+for more any questions or queries- 
+
+contact me on email
+
+bharathegde500@gmail.com
+
+
 this application was made specifically for medical stores.
 But it can be modified for any purposes like for any other shops or outlets or a store rooms ,
 which has to be maintained systematically on its logs.
@@ -30,11 +38,4 @@ also have any ide of your choice (ecllipse recomended)
 note -
 
 to sucessfully run the application on your machine
-make sure that you have correctly linked your database and program.
-
-
-for more any questions or queries- 
-
-contact me on email
-
-bharathegde500@gmail.com
+make sure that you have correctly linked your database to the program.

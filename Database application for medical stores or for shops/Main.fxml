@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+      <TableView fx:id="table_users" layoutX="13.0" layoutY="156.0" prefHeight="427.0" prefWidth="871.0">
+        <columns>
+          <TableColumn fx:id="col_id" prefWidth="56.00000190734863" text="Med id" />
+          <TableColumn id="tableview" fx:id="col_name" minWidth="6.39996337890625" prefWidth="272.7999801635742" text="Name of item" />
+            <TableColumn fx:id="col_avl" prefWidth="116.0" text="Available Quantity" />
+            <TableColumn fx:id="col_mfd" prefWidth="113.60000610351562" text="MFD date" />
+            <TableColumn fx:id="col_exp" prefWidth="105.5999755859375" text="EXP date" />
+            <TableColumn fx:id="col_price" prefWidth="92.0" text="Price per unit" />
+            <TableColumn fx:id="col_type" prefWidth="127.199951171875" text="Type of Med" />
+        </columns>
+      </TableView>
+      <TextField fx:id="filterField" layoutX="13.0" layoutY="78.0" prefHeight="42.0" prefWidth="478.0" promptText="    search for any item" styleClass="TextField" stylesheets="@application.css">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </TextField>
+      <Label fx:id="alertlabel" layoutX="28.0" layoutY="9.0" prefHeight="54.0" prefWidth="203.0" text="Welcome" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <Button fx:id="sellerbtn" layoutX="732.0" layoutY="23.0" mnemonicParsing="false" onAction="#SellerTable" styleClass="TextField" stylesheets="@application.css" text="Seller Company Detail;s">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="customerbtn" layoutX="559.0" layoutY="65.0" mnemonicParsing="false" onAction="#RecordTable" prefHeight="26.0" prefWidth="141.0" styleClass="TextField" stylesheets="@application.css" text="Customer Records">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="signoutbtn" layoutX="732.0" layoutY="112.0" mnemonicParsing="false" onAction="#SignOut" prefHeight="26.0" prefWidth="141.0" style="-fx-background-color: darkred;" styleClass="TextField" stylesheets="@application.css" text="CLose Application" textFill="#fffbfb">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button fx:id="storagebtn1" layoutX="559.0" layoutY="23.0" mnemonicParsing="false" onAction="#StorageTable" prefHeight="26.0" prefWidth="141.0" styleClass="TextField" stylesheets="@application.css" text="Storage &amp; stocks">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Button layoutX="731.0" layoutY="65.0" mnemonicParsing="false" onAction="#DataEntry" prefHeight="26.0" prefWidth="142.0" stylesheets="@application.css" text="Data Entry">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font></Button>
+      <Line endX="117.20001220703125" endY="76.59999084472656" layoutX="407.0" layoutY="56.0" startX="117.20001220703125" startY="-33.79999923706055" stroke="WHITE" />
+      <Button layoutX="558.0" layoutY="112.0" mnemonicParsing="false" onAction="#refresh" prefHeight="26.0" prefWidth="142.0" style="-fx-background-color: #03c713;" stylesheets="@application.css" text="Refresh">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

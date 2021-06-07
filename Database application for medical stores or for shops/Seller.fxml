@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.sellercontroller">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="54.0" prefWidth="398.0" text="Seller company details" textFill="#f2c809">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <TableView fx:id="seller_table" layoutX="37.0" layoutY="163.0" prefHeight="200.0" prefWidth="825.0">
+        <columns>
+          <TableColumn fx:id="secol_med_id" prefWidth="48.0" text="Med id" />
+          <TableColumn fx:id="secol_id" prefWidth="43.99999237060547" text="C id" />
+            <TableColumn fx:id="secol_name" prefWidth="211.19998168945312" text="Company Name" />
+            <TableColumn fx:id="secol_phno" prefWidth="126.4000244140625" text="Company Contact no" />
+            <TableColumn fx:id="secol_add" prefWidth="193.60000610351562" text="Company Address" />
+            <TableColumn fx:id="secol_pur" prefWidth="102.39996337890625" text="Units Purchased" />
+            <TableColumn fx:id="secol_date" prefWidth="100.79986572265625" text="Purchased Date" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

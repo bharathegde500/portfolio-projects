@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.operationcontroller">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" prefHeight="54.0" prefWidth="404.0" text="Data Entry " textFill="#f2c809">
+         <font>
+            <Font name="System Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <Group layoutX="58.0" layoutY="466.0" />
+      <Group layoutX="14.0" layoutY="287.0" />
+      <TextField fx:id="medicine_avl" layoutX="22.0" layoutY="240.0" prefHeight="45.0" prefWidth="220.0" promptText="Available quantity" styleClass="TextField" stylesheets="@application.css" />
+      <TextField fx:id="medicine_mfd" layoutX="22.0" layoutY="307.0" prefHeight="45.0" prefWidth="220.0" promptText="MFD date" styleClass="TextField" stylesheets="@application.css" />
+      <TextField fx:id="medicine_exp" layoutX="22.0" layoutY="376.0" prefHeight="45.0" prefWidth="220.0" promptText="EXP date" styleClass="TextField" stylesheets="@application.css" />
+      <TextField fx:id="medicine_name" layoutX="25.0" layoutY="177.0" prefHeight="45.0" prefWidth="220.0" promptText="Med name" styleClass="TextField" stylesheets="@application.css" />
+      <TextField fx:id="medicine_price" layoutX="341.0" layoutY="375.0" prefHeight="46.0" prefWidth="220.0" promptText="Price" styleClass="TextField" stylesheets="@application.css" />
+      <TextField fx:id="medicine_type" layoutX="340.0" layoutY="307.0" prefHeight="45.0" prefWidth="220.0" promptText="Type of Med" styleClass="TextField" stylesheets="@application.css" />
+      <TextField fx:id="storage_room" layoutX="341.0" layoutY="114.0" prefHeight="45.0" prefWidth="220.0" promptText="Room no" styleClass="TextField" stylesheets="@application.css" />
+      <TextField fx:id="storage_comp" layoutX="340.0" layoutY="178.0" prefHeight="45.0" prefWidth="220.0" promptText="Comp no" styleClass="TextField" stylesheets="@application.css" />
+      <TextField fx:id="storage_ref" layoutX="340.0" layoutY="241.0" prefHeight="45.0" prefWidth="220.0" promptText="Ref id" styleClass="TextField" stylesheets="@application.css" />
+      <TextField fx:id="seller_name" layoutX="637.0" layoutY="114.0" prefHeight="45.0" prefWidth="220.0" promptText="Company name" styleClass="TextField" stylesheets="@application.css" />
+      <TextField fx:id="seller_ph" layoutX="637.0" layoutY="241.0" prefHeight="45.0" prefWidth="220.0" promptText="Company ph no" styleClass="TextField" stylesheets="@application.css" />
+      <TextField fx:id="seller_address" layoutX="637.0" layoutY="177.0" prefHeight="45.0" prefWidth="220.0" promptText="Company address" styleClass="TextField" stylesheets="@application.css" />
+      <TextField fx:id="seller_purchased" layoutX="637.0" layoutY="307.0" prefHeight="45.0" prefWidth="220.0" promptText="Units Purchased" styleClass="TextField" stylesheets="@application.css" />
+      <TextField fx:id="seller_date" layoutX="637.0" layoutY="376.0" prefHeight="45.0" prefWidth="220.0" promptText="Date of Purchased" styleClass="TextField" stylesheets="@application.css" />
+      <Label layoutX="650.0" layoutY="73.0" prefHeight="27.0" prefWidth="210.0" text="Seller Company Details" textFill="#f2c809">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="56.0" layoutY="70.0" prefHeight="34.0" prefWidth="150.0" text="Medicine Details" textFill="#f2c809">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="389.0" layoutY="73.0" text="Storage Details " textFill="#f2c809">
+         <font>
+            <Font name="System Italic" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="169.0" layoutY="503.0" mnemonicParsing="false" onAction="#insertbutton" prefHeight="45.0" prefWidth="220.0" style="-fx-background-color: green;" stylesheets="@application.css" text="Insert" textFill="#ffeaea">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="medicine_id" layoutX="23.0" layoutY="113.0" prefHeight="46.0" prefWidth="220.0" promptText="Med Id" styleClass="TextField" stylesheets="@application.css" />
+      <Button layoutX="512.0" layoutY="502.0" mnemonicParsing="false" onAction="#DeleteButton" prefHeight="46.0" prefWidth="220.0" style="-fx-background-color: af0000;" stylesheets="@application.css" text="Delete" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

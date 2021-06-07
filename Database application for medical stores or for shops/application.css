@@ -1,0 +1,19 @@
+.root{
+	-fx-background-color: #3A3B3C;
+	-fx-font-family: 'Ubuntu', sans-serif;
+	
+}
+.button{
+	-fx-background-color:#f2c809;
+	-fx-background-radius: 30;
+	
+	
+}
+.TextField{
+	-fx-background-radius: 30;
+	
+}
+tableview{
+	-fx-background-color: #f2c809;
+	
+}

@@ -1,2 +1,2 @@
 # portfolio-projects
-this is the repositary of my projects i have done.
+this is the repositary which contains of projects i have done.

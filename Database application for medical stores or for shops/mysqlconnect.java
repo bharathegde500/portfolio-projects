@@ -14,7 +14,8 @@ public class mysqlconnect {
     public static Connection ConnectDb(){
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection conn =  DriverManager.getConnection("jdbc:mysql://localhost:3306/medproject","root","KHULJAsimilarly123");
+//             please nodify below statement appropriatly before use
+            Connection conn =  DriverManager.getConnection("jdbc:mysql://localhost:3306/databaseName","username","password");
             return conn;
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, e);
